@@ -34,7 +34,10 @@ export default function Embed({ data, location }) {
     <div className={styles.embedLayout}>
       {previous && (
         <div>
-          Previous: <a href={next.url}>{next.title}</a>
+          Previous:{" "}
+          <a href={next.url} target="_parent">
+            {next.title}
+          </a>
         </div>
       )}
       <div>
@@ -42,7 +45,10 @@ export default function Embed({ data, location }) {
       </div>
       {next && (
         <div>
-          Next: <a href={previous.url}>{previous.title}</a>
+          Next:{" "}
+          <a href={previous.url} target="_parent">
+            {previous.title}
+          </a>
         </div>
       )}
     </div>
