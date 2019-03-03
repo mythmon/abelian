@@ -1,0 +1,7 @@
+.headerFlair:not(:last-child) {
+  margin-inline-end: 0.5em;
+}
+
+.headerFlair:not(:first-child) {
+  margin-inline-start: 0.5em;
+}
