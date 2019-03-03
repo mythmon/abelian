@@ -21,14 +21,14 @@ export default function IndexPage({ data }) {
 
       <h2>Explore the Ring</h2>
       <p>
-        Every site on the ring must include a navigation footer that links to it's neighbors in the
+        Every site on the ring must include a navigation footer that links to its neighbors in the
         ring. An embeddable page is provided for convenience. Here is a demo of the navigation
         footer.
       </p>
       <iframe
         className={styles.embedPreview}
         title="embed-preview"
-        src="./embed/?parentId=mythmon"
+        src="./embed/?parentId=index"
         frameborder="no"
         scrolling="no"
       />

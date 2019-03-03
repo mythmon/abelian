@@ -1,3 +1,8 @@
+- id: index
+  title: Abelian webring index
+  description: The index of the webring!
+  url: https://abelian.now.sh
+
 - id: mythmon
   title: Mythmon.com
   description: Mythmon's personal site
