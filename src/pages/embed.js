@@ -27,31 +27,39 @@ export default function Embed({ data, location }) {
     // negative modulus is weird, so wrap the other way
     previous = members[(parentIndex + members.length - 1) % members.length];
   } else {
-    console.log("couldn't detect parent, skipping next and previous links");
+    console.log("Couldn't detect webring parent, defaulting to first and last");
+    next = members[0];
+    previous = members[members.length - 1];
   }
 
   return (
-    <div className={styles.embedLayout}>
-      {previous && (
+    <>
+      <div className={styles.embedLayout}>
+        {previous && (
+          <div>
+            Previous:{" "}
+            <a href={previous.url} target="_parent">
+              {previous.title}
+            </a>
+          </div>
+        )}
         <div>
-          Previous:{" "}
-          <a href={next.url} target="_parent">
-            {next.title}
-          </a>
+          <h1>
+            <a href={location.origin} target="_parent">
+              {data.site.siteMetadata.title}
+            </a>
+          </h1>
         </div>
-      )}
-      <div>
-        <h1>{data.site.siteMetadata.title}</h1>
+        {next && (
+          <div>
+            Next:{" "}
+            <a href={next.url} target="_parent">
+              {next.title}
+            </a>
+          </div>
+        )}
       </div>
-      {next && (
-        <div>
-          Next:{" "}
-          <a href={previous.url} target="_parent">
-            {previous.title}
-          </a>
-        </div>
-      )}
-    </div>
+    </>
   );
 }
 

@@ -28,8 +28,8 @@ export default function IndexPage({ data }) {
       <iframe
         className={styles.embedPreview}
         title="embed-preview"
-        src="./embed/?parentId=mythmon"
-        frameborder="no"
+        src="./embed/"
+        frameBorder="no"
         scrolling="no"
       />
 

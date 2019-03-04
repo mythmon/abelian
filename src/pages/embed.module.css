@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   max-height: 240px;
-  padding: 0;
+  padding: 4px;
   margin: 0;
   display: flex;
   overflow: hidden;
