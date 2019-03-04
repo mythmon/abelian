@@ -6,5 +6,5 @@ Wikipedia describes a [webring]( https://en.wikipedia.org/wiki/Webring) as "a
 collection of websites linked together in a circular structure, and usually
 organized around a specific theme."
 
-Every site on the ring must include a navigation footer that links to it's
+Every site on the ring must include a navigation footer that links to its
 neighbors in the ring. An embeddable page is provided for convenience.
