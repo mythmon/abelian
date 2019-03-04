@@ -10,7 +10,7 @@
   margin: 0;
   display: flex;
   overflow: hidden;
-  align-items: last baseline;
+  align-items: flex-end;
 }
 
 .embedLayout > * {
