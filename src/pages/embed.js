@@ -45,7 +45,7 @@ export default function Embed({ data, location }) {
         )}
         <div>
           <h1>
-            <a href={location.origin} target="_parent">
+            <a href="/" target="_parent">
               {data.site.siteMetadata.title}
             </a>
           </h1>
