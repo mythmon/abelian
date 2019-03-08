@@ -33,6 +33,37 @@ export default function IndexPage({ data }) {
         scrolling="no"
       />
 
+      <h2>Join the Ring</h2>
+      <ol>
+        <li>
+          <p>Add the ring's navigation on your site. Here's an example:</p>
+          <pre className={styles.code}>
+            <code>
+              {`<iframe\n` +
+                `  src="https://abelian.now.sh/embed/"\n` +
+                `  frameBorder="no"\n` +
+                `  scrolling="no"\n` +
+                `  height="80"\n` +
+                `  width="800"\n` +
+                `></iframe>`}
+            </code>
+          </pre>
+          <p>
+            The navigation will react to changes in the size, and you can also size the iframe with
+            CSS for more flexibility.
+          </p>
+        </li>
+        <li>
+          <p>
+            File a pull request on the Abelian repository, editing the file{" "}
+            <a href="https://github.com/mythmon/abelian/edit/master/data/members.yaml">
+              data/members.yaml
+            </a>
+            .
+          </p>
+        </li>
+      </ol>
+
       <h2>Members of the Ring</h2>
       <ul>
         {members.map(member => (
