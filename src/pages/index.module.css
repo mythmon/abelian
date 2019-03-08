@@ -2,3 +2,10 @@
   width: 800px;
   height: 60px;
 }
+
+.code {
+  margin: 20px 0px;
+  padding: 10px;
+  border-left: 3px solid #aaa;
+  background: #eee;
+}
