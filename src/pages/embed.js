@@ -17,11 +17,13 @@ export default class Embed extends React.Component {
     const { data, location } = this.props;
     const { ssr } = this.state;
 
-    let next, previous;
+    let next, previous, random;
+    
     // Don't try and determine a parent during server-side rendering
     if (!ssr) {
       const members = data.allMembersYaml.edges.map(e => e.node);
       let parentIndex = -1;
+      random = members[Math.floor(Math.random()*members.length)];
 
       // Try and get a parent id from the query string
       if (parentIndex === -1) {
@@ -73,6 +75,11 @@ export default class Embed extends React.Component {
             <a href={next.url} target="_parent">
               {next.title}
             </a>
+          </div>
+        )}
+        {random && (
+          <div>
+            <a href={random.url} target="_parent" className={styles.random}>Feeling Lucky?</a>
           </div>
         )}
       </div>
