@@ -4111,10 +4111,10 @@ gatsby-plugin-react-helmet@^3.0.7:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-typography@^2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.2.7.tgz#164869018c28da8cde70f3c451365e2c0643608f"
-  integrity sha512-ORUFM4QXBslsn0KG+e5mvhFQLdU1Txp3uPt8srFtitovuCzewg1NztdLaMnZgwpGTfrAMl98d4uaPAppiOjp6g==
+gatsby-plugin-typography@^2.2.13:
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.2.13.tgz#749db1914ec6c04c0e6453540ce168b9523a335c"
+  integrity sha512-4qjP6IeR1XwZ0/NR2py8Sl4Vx+BRS6D0F8E7kEGXcR4TjzNdwqOIQq0JkPotZxxHQRx2xx7Cu6Y7Wf+hM9MitA==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
