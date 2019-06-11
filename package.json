@@ -18,7 +18,7 @@
     "gatsby-transformer-yaml": "^2.1.12",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.3",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
     "typography": "^0.16.18"
