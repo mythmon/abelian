@@ -13,10 +13,10 @@
   description: Adam's personal site
   url: https://gashlin.net
 
-- id: juniper
-  title: juniper wilde's page
-  description: juniper's personal site
-  url: https://www.futch.dev
+- id: bayounetta
+  title: futch.dev
+  description: june's sad girl lifestyle blog
+  url: https://www.futch.dev/about
 
 - id: mhowell
   title: molly howell's site
@@ -27,7 +27,7 @@
   title: "codename: dana"
   description: some of dana's thoughts
   url: https://codename-dana.github.io
-  
+
 - id: dariusk
   title: "RECTANGLE K*I*C*K"
   description: a HopperQuest clan
